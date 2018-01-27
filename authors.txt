@@ -1,0 +1,2 @@
+davidklevine = David K. Levine <david@dklevine.com>
+ghagerer = Gerhard Hagerer <ghagerer@informatik.uni-augsburg.de>

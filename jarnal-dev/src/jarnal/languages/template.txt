@@ -1,0 +1,398 @@
+# Jarnal version 941
+# Jarnal English-Dutch
+
+# MAIN MENU BAR
+File=== ===
+Edit=== ===
+View=== ===
+Insert=== ===
+Format=== ===
+Tools=== ===
+Collaborate=== ===
+Help=== ===
+
+# File submenu
+New=== ===
+Open=== ===
+OpenURL=== ===
+New On Background=== ===
+Open Background=== ===
+Open Text=== ===
+Save=== ===
+Save With Options=== ===
+Export=== ===
+
+# Export submenu
+Save Text As=== ===
+Save Html As=== ===
+Snapshot=== ===
+Export to PDF=== ===
+Export to TIFF=== ===
+
+Network Save=== ===
+Show Server Message=== ===
+Options=== ===
+
+# Options submenu
+Network Save Options=== ===
+Bookmark Options=== ===
+
+# Bookmark Options submenu
+Autoupdate Bookmarks=== ===
+Delete Bookmarks=== ===
+
+# Delete Bookmarks submenu not implemented
+
+Toolbars=== ===
+
+# Toolbars submenu
+Restore Default Toolbars=== ===
+Load Top Toolbar=== ===
+Load Bottom Toolbar=== ===
+Load Presentation Toolbar=== ===
+
+Restore Default Configuration=== ===
+Edit Current Template=== ===
+Adjust Time Zone=== ===
+
+Pencentric=== ===
+Manage Internal Files=== ===
+
+Print With Options=== ===
+
+Bookmarks=== ===
+
+# Bookmarks submenu not implemented
+
+Exit=== ===
+
+# Edit submenu
+Undo=== ===
+Undo All=== ===
+Redo=== ===
+Redo All=== ===
+Undo/Redo List=== ===
+Record=== ===
+Playback=== ===
+Find=== ===
+Cut=== ===
+Copy=== ===
+Paste=== ===
+Clear=== ===
+Delete=== ===
+Select All Text=== ===
+Copy All Text=== ===
+Copy Paper=== ===
+
+# View submenu
+Thumbs=== ===
+Continuous=== ===
+Overlay Pages=== ===
+Fit Width=== ===
+Zoom In=== ===
+Zoom Out=== ===
+Zoom=== ===
+Full Screen=== ===
+Full Screen Options=== ===
+
+# Full Screen Options submenu
+Shift Right=== ===
+Shift Down=== ===
+
+Trap Colors=== ===
+Quality=== ===
+
+# Quality submenu
+High Quality=== ===
+Normal Quality=== ===
+Low Quality=== ===
+
+# Status Bar
+Click to insert image=== ===
+Click to paste=== ===
+Click to link=== ===
+Page=== ===
+of=== ===
+mem=== ===
+bold=== ===
+pt=== ===
+Font=== ===
+
+# Background Quality submenu
+Background Quality=== ===
+Default Quality=== ===
+Good Quality=== ===
+Highest Quality=== ===
+Use External Renderer=== ===
+Silent External Renderer=== ===
+
+Page Overlay=== ===
+Outline=== ===
+Thumbnail Bar=== ===
+Update Thumbnail Bar=== ===
+First Page=== ===
+Previous Page=== ===
+Next Page=== ===
+Last Page=== ===
+Go To Page=== ===
+Next Frame=== ===
+Previous Frame=== ===
+Highlight Lines=== ===
+Redraw Page=== ===
+
+# Insert Submenu
+Insert Page Before=== ===
+Insert Page After=== ===
+Insert Jarnal Before=== ===
+Insert Jarnal After=== ===
+Insert Background Before=== ===
+Insert Background After=== ===
+Insert Background Text=== ===
+Insert Link=== ===
+Insert Screenshot=== ===
+Insert Overlay=== ===
+Insert Image=== ===
+
+# Format submenu
+Text Style=== ===
+Paper and Background=== ===
+Graph Paper=== ===
+Set Size=== ===
+Background Screenshot=== ===
+Modify Selection=== ===
+Overlay Style=== ===
+Overplakker
+
+# Tools submenu
+Choose Pen=== ===
+Smooth Strokes=== ===
+Eraser=== ===
+Razor=== ===
+Top Razor=== ===
+Sticky Ruler=== ===
+Arrow=== ===
+Ruler=== ===
+Select Rectangle=== ===
+Select=== ===
+Right Button=== ===
+Middle Button=== ===
+
+# Middle Button Submenu
+No Action=== ===
+Last Action=== ===
+Button Pen=== ===
+
+mini Jarnal=== ===
+Internal mini Jarnal=== ===
+Recognize=== ===
+Recognize=== ===
+
+# Recognize submenu
+Recognize Page=== ===
+Undo Recognition=== ===
+Edit Dictionaries=== ===
+
+Stamp Date=== ===
+
+# Collaborate submenu
+Start Server=== ===
+Connect to Server=== ===
+Delete Servers=== ===
+
+# Delete Servers submanu
+Disconnect=== ===
+Disconnect Active Client=== ===
+
+# Help submenu
+Check for Updates=== ===
+Documentation=== ===
+Memory Errors=== ===
+Hot Keys=== ===
+About=== ===
+
+# Save Options dialog
+Save Options=== ===
+Save Self Executing=== ===
+Save Background With File=== ===
+Portable Backgrounds=== ===
+Record=== ===
+Save On Exit=== ===
+Save User Info=== ===
+Exit This Dialog=== ===
+Send As Email=== ===
+Save=== ===
+Save As=== ===
+
+# Overlay dialog
+Overlay=== ===
+Update=== ===
+Overlay=== ===
+Color=== ===
+Transparency=== ===
+Refresh Overlay=== ===
+Outline=== ===
+Thickness=== ===
+Refresh Outline=== ===
+Equalize=== ===
+Roundness=== ===
+Refresh Roundness=== ===
+Make Square=== ===
+Insert Overlay=== ===
+Done=== ===
+Refresh=== ===
+
+# Colors
+white=== ===
+yellow=== ===
+pink=== ===
+orange=== ===
+blue=== ===
+green=== ===
+black=== ===
+gray=== ===
+magenta=== ===
+red=== ===
+White=== ===
+Yellow=== ===
+Pink=== ===
+Orange=== ===
+Blue=== ===
+Green=== ===
+Black=== ===
+Gray=== ===
+Magenta=== ===
+Red=== ===
+
+# Paper dialog
+Lined=== ===
+Plain=== ===
+Graph=== ===
+Ruled=== ===
+Paper=== ===
+color=== ===
+Thick Lines=== ===
+Medium Lines=== ===
+Thin Lines=== ===
+Other Lines=== ===
+Set Lines=== ===
+Normal Size=== ===
+Index Card=== ===
+A4=== ===
+US Letter=== ===
+Size=== ===
+Fit to Background=== ===
+Toggle Landscape=== ===
+Bottom Highlighter=== ===
+opaque=== ===
+translucent=== ===
+transparent=== ===
+other=== ===
+Copy Paper=== ===
+Absolute Scale=== ===
+Background=== ===
+Show=== ===
+Repeating=== ===
+Fade=== ===
+Page=== ===
+Scale=== ===
+Fit Page Width=== ===
+Fit Page Height=== ===
+Clockwise=== ===
+Counterclockwise=== ===
+Upside Down=== ===
+Rotate=== ===
+Insert Text=== ===
+Information=== ===
+Portable=== ===
+Save With File=== ===
+Open=== ===
+Remove=== ===
+Apply Paper to All Pages=== ===
+Apply to All with Background=== ===
+
+# Print Options dialog
+Print Options=== ===
+Align to Margins=== ===
+Fit to Page=== ===
+Absolute Scale=== ===
+Show Page Numbers=== ===
+Print Borders=== ===
+Print as PDF=== ===
+Send PDF as Email=== ===
+Print Background=== ===
+Print via PDF=== ===
+
+# Screenshot dialog
+Insert Screenshot=== ===
+Background Screenshot=== ===
+Image=== ===
+Entire Screen=== ===
+Minimize for Screenshot=== ===
+Cancel=== ===
+Shoot=== ===
+
+# Selection Dialog
+Pen Width=== ===
+Arrow Weight=== ===
+Highlighter Width=== ===
+highlighter=== ===
+no change=== ===
+No Change=== ===
+Translucent=== ===
+Transparent=== ===
+Apply Current Pen=== ===
+
+# Text Style Dialog
+Text Style=== ===
+Bold Text=== ===
+Underline Text=== ===
+Italic Text=== ===
+Font=== ===
+Set Text Default=== ===
+Black Text=== ===
+Blue Text=== ===
+Green Text=== ===
+Gray Text=== ===
+Magenta Text=== ===
+Orange Text=== ===
+Pink Text=== ===
+Red Text=== ===
+White Text=== ===
+Yellow Text=== ===
+
+# Choose Pen Dialog
+Choose Pen=== ===
+Base Pen Thickness=== ===
+Base Highlighter Transparency=== ===
+Fat Width=== ===
+Arrow Weight=== ===
+Fine=== ===
+Medium=== ===
+Heavy=== ===
+Fat=== ===
+Pen=== ===
+Translucent Highlighter=== ===
+Transparent Highlighter=== ===
+Get Default Pen=== ===
+Get Default Highlighter=== ===
+Get Button Pen=== ===
+Get Current Pen=== ===
+Set Globals=== ===
+Set Default=== ===
+Set Button Pen=== ===
+Set Current Pen=== ===
+
+# Exit Dialog
+Unsaved data will be lost. OK to exit?=== ===
+Exit Without Saving=== ===
+
+# Find Dialog
+Match Case=== ===
+Entire Word=== ===
+First=== ===
+Entire Document=== ===
+Reverse=== ===
+
+# Color Trap dialog
+Color Trap=== ===
+Enable Color Trap=== ===

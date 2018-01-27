@@ -1,0 +1,77 @@
+#!/bin/bash
+
+. targets.txt
+
+makedir=`dirname $0`
+cd $makedir
+makedir=`pwd`
+
+CLASSPATH=${makedir}/lib/jpedalt.jar:${makedir}/lib/itext-1.2.jar
+
+if [ "$1" == "" ]; then
+	echo usage:
+	echo jarnal-make \<command\>
+	echo commands:
+	echo co checkout from svn
+	echo ci checkin to svn
+fi
+
+if [ "$1" == "co" ]; then
+	echo checking out
+	cd ..
+	svn co https://jarnal.svn.sourceforge.net/svnroot/jarnal jarnal-dev
+fi
+
+if [ "$1" == "ci" ]; then
+	echo checking in
+	svn --force-log -F release-notes.txt ci
+fi
+
+compile=false
+makejar=false
+if [ "$1" == "test" ]; then
+	compile=true
+fi
+
+if [ "$1" == "build" ]; then
+	compile=true
+	makejar=true
+fi
+
+if [ "$1" == "run" ]; then
+	compile=true
+	makejar=true
+fi
+
+if [ $compile == true ]; then
+	echo compiling
+	cd $targ/src/
+	export CLASSPATH
+	javac $jver jarnal/*.java
+fi
+
+if [ $makejar == true ]; then
+	echo building jar file
+	cd ${makedir}/${targ}/src
+	jar cvfm jarnal.jar ../../jmainclass.txt jarnal
+	cd jarnal
+	ver=`cat ver.txt`
+	echo $((ver + 1)) > ver.txt
+	rm *class
+	cd ..
+	mv -f jarnal.jar ../dist
+	cd ../dist
+fi
+
+if [ "$1" == "run" ]; then
+	java -Dfile.encoding=UTF-8 -Xmx192m -jar jarnal.jar	
+fi	
+
+if [ "$1" == "build" ]; then
+	echo building install file
+	cp -fr ${makedir}/lib .
+	zip $targ-install.zip * lib/* templates/*
+	mv $targ-install.zip ../release
+fi
+
+
